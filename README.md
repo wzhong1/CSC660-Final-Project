@@ -21,7 +21,7 @@
 	● Search
 	● Pictures
 	● Estimated Delivery time People with disabilities
-	● Audio Navigation
+	● Voice Navigation(People with visual impair)
 
 	Nice to have features:
 	● Membership discount
@@ -31,5 +31,6 @@
 	● Notification
 	
 Food Order App Wire Frame
-[Final Project Proposal.pdf](https://github.com/wzhong1/CSC660-Final-Project/files/9817367/Final.Project.Proposal.pdf)
+
+![Screen Shot 2022-10-19 at 5 44 33 AM](https://user-images.githubusercontent.com/78244606/196694478-ea8999fb-ed95-43f7-bf81-9fdd44398f3e.png)
 
