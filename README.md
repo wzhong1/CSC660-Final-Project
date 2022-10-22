@@ -30,6 +30,8 @@
 	● Free delivery availability
 	● Notification
 	
+	Additonal package used: Firebase, SDWebImageSwiftUI
+	
 Food Order App Wire Frame
 
 ![Screen Shot 2022-10-19 at 5 44 33 AM](https://user-images.githubusercontent.com/78244606/196694478-ea8999fb-ed95-43f7-bf81-9fdd44398f3e.png)
