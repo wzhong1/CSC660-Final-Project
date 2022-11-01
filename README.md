@@ -20,7 +20,6 @@
 	● Map / GPS
 	● Search
 	● Pictures
-	● Estimated Delivery time People with disabilities
 	● Voice Navigation(People with visual impair)
 
 	Nice to have features:
