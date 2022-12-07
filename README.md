@@ -1,10 +1,12 @@
 	CSC 660 Final Project - Food order app Creator: William Zhong Student ID: 918136393
-
+	
+	Major app struture was based on https://iosexample.com - food order app. I modified the code based with extra feature.
+	
 	Summary
 	This simple food order app is designed by swiftUI. Users will be able to explore varieties of food options from different partnered restaurants every day. They can simply checkout in the app and have them delivered to your location.
 
 	Introduction
-	Nowaday I see a lot of people do not have time to travel back and forth for food due to their busy working schedule. Many companies already found these business opportunities and created this app for food ordering. Some popular apps like grubhub, doordash, and Ubereat, etc. These apps have millions of users using it every day. The only thing I noticed is that these apps are not friendly for people with disabilities. Therefore I am not only creating a food order app for normal people, but also for people with disabilities.
+	Nowaday I see a lot of people do not have time to travel back and forth for food due to their busy working schedule. Many companies already found these business opportunities and created this app for food ordering. Some popular apps like grubhub, doordash, and Ubereat, etc. These apps have millions of users using it every day.
 
 	Must have features:
 	● Food menu of the day
