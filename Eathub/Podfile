@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Eathub' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'SDWebImageSwiftUI'
+  pod 'GoogleSignIn'
+  pod 'GoogleMaps', '6.1.0'
+  pod 'Google-Maps-iOS-Utils', '3.4.0'
+  # Pods for Eathub
+
+end

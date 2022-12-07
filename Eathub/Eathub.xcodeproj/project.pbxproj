@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB884E3F6A21D525102CC8B /* Pods_Eathub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A57ECFC71EC1FF1C011F1C /* Pods_Eathub.framework */; };
+		CB20EF552906E038004FBAC1 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB20EF542906E038004FBAC1 /* GoogleSignIn.framework */; };
+		CB20EF572906E04C004FBAC1 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB20EF562906E04C004FBAC1 /* GoogleUtilities.framework */; };
+		CB7FDD8B290770430060B94B /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FDD8A290770430060B94B /* mapView.swift */; };
+		CB87C28529084A4A0083BE1E /* foodDeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87C28429084A4A0083BE1E /* foodDeliveryView.swift */; };
+		CB88D2FE290F3E2300194209 /* TrackfoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB88D2FD290F3E2300194209 /* TrackfoodView.swift */; };
+		CB88D300291213BE00194209 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB88D2FF291213BE00194209 /* loginView.swift */; };
+		CBD77EA229049DB600666451 /* EathubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD77EA129049DB600666451 /* EathubApp.swift */; };
+		CBD77EA429049DB600666451 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD77EA329049DB600666451 /* ContentView.swift */; };
+		CBD77EA629049DB800666451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD77EA529049DB800666451 /* Assets.xcassets */; };
+		CBD77EA929049DB800666451 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD77EA829049DB800666451 /* Preview Assets.xcassets */; };
+		CBEB15682904A63A004115D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEB15672904A63A004115D0 /* GoogleService-Info.plist */; };
+		CBEB15A22904A98A004115D0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB15A12904A98A004115D0 /* HomeViewModel.swift */; };
+		CBEB15A52904ACE0004115D0 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB15A42904ACE0004115D0 /* CartView.swift */; };
+		CBEB15A72904AD09004115D0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB15A62904AD08004115D0 /* Home.swift */; };
+		CBEB15A92904AD31004115D0 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB15A82904AD31004115D0 /* ItemView.swift */; };
+		CBEB15AB2904AD51004115D0 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB15AA2904AD51004115D0 /* Menu.swift */; };
+		CBEB15AE2904AD9D004115D0 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB15AD2904AD9D004115D0 /* Cart.swift */; };
+		CBEB15B02904ADBF004115D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB15AF2904ADBE004115D0 /* Item.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FEDC564C1A72F4EE547F162 /* Pods-Eathub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eathub.debug.xcconfig"; path = "Target Support Files/Pods-Eathub/Pods-Eathub.debug.xcconfig"; sourceTree = "<group>"; };
+		5A342C9D575CDD229BF0A0DC /* Pods-Eathub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eathub.release.xcconfig"; path = "Target Support Files/Pods-Eathub/Pods-Eathub.release.xcconfig"; sourceTree = "<group>"; };
+		76A57ECFC71EC1FF1C011F1C /* Pods_Eathub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eathub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB20EF542906E038004FBAC1 /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB20EF562906E04C004FBAC1 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7FDD8A290770430060B94B /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
+		CB87C28429084A4A0083BE1E /* foodDeliveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodDeliveryView.swift; sourceTree = "<group>"; };
+		CB88D2FD290F3E2300194209 /* TrackfoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackfoodView.swift; sourceTree = "<group>"; };
+		CB88D2FF291213BE00194209 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
+		CBD77E9E29049DB600666451 /* Eathub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eathub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD77EA129049DB600666451 /* EathubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EathubApp.swift; sourceTree = "<group>"; };
+		CBD77EA329049DB600666451 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBD77EA529049DB800666451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBD77EA829049DB800666451 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBEB15672904A63A004115D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Eathub/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CBEB15A12904A98A004115D0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CBEB15A42904ACE0004115D0 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		CBEB15A62904AD08004115D0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CBEB15A82904AD31004115D0 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		CBEB15AA2904AD51004115D0 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		CBEB15AD2904AD9D004115D0 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		CBEB15AF2904ADBE004115D0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD77E9B29049DB600666451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB20EF572906E04C004FBAC1 /* GoogleUtilities.framework in Frameworks */,
+				CB20EF552906E038004FBAC1 /* GoogleSignIn.framework in Frameworks */,
+				CAB884E3F6A21D525102CC8B /* Pods_Eathub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		651A22C46924603599ADE5DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDC564C1A72F4EE547F162 /* Pods-Eathub.debug.xcconfig */,
+				5A342C9D575CDD229BF0A0DC /* Pods-Eathub.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6726DA984FAD581C7D3A4062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB20EF562906E04C004FBAC1 /* GoogleUtilities.framework */,
+				CB20EF542906E038004FBAC1 /* GoogleSignIn.framework */,
+				76A57ECFC71EC1FF1C011F1C /* Pods_Eathub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBD77E9529049DB500666451 = {
+			isa = PBXGroup;
+			children = (
+				CBD77EA029049DB600666451 /* Eathub */,
+				CBD77E9F29049DB600666451 /* Products */,
+				651A22C46924603599ADE5DF /* Pods */,
+				6726DA984FAD581C7D3A4062 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD77E9F29049DB600666451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD77E9E29049DB600666451 /* Eathub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBD77EA029049DB600666451 /* Eathub */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB15AC2904AD8A004115D0 /* Model */,
+				CBEB15A32904ACCA004115D0 /* View */,
+				CBEB15A02904A962004115D0 /* ViewModel */,
+				CBD77EA129049DB600666451 /* EathubApp.swift */,
+				CBD77EA329049DB600666451 /* ContentView.swift */,
+				CBD77EA529049DB800666451 /* Assets.xcassets */,
+				CBD77EA729049DB800666451 /* Preview Content */,
+				CBEB15672904A63A004115D0 /* GoogleService-Info.plist */,
+			);
+			path = Eathub;
+			sourceTree = "<group>";
+		};
+		CBD77EA729049DB800666451 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBD77EA829049DB800666451 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBEB15A02904A962004115D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB15A12904A98A004115D0 /* HomeViewModel.swift */,
+				CB88D2FD290F3E2300194209 /* TrackfoodView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CBEB15A32904ACCA004115D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB15A42904ACE0004115D0 /* CartView.swift */,
+				CBEB15A62904AD08004115D0 /* Home.swift */,
+				CBEB15A82904AD31004115D0 /* ItemView.swift */,
+				CBEB15AA2904AD51004115D0 /* Menu.swift */,
+				CB7FDD8A290770430060B94B /* mapView.swift */,
+				CB87C28429084A4A0083BE1E /* foodDeliveryView.swift */,
+				CB88D2FF291213BE00194209 /* loginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBEB15AC2904AD8A004115D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB15AD2904AD9D004115D0 /* Cart.swift */,
+				CBEB15AF2904ADBE004115D0 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBD77E9D29049DB600666451 /* Eathub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD77EAC29049DB800666451 /* Build configuration list for PBXNativeTarget "Eathub" */;
+			buildPhases = (
+				F6E77FF4EC101E7E2FA8A5D5 /* [CP] Check Pods Manifest.lock */,
+				CBD77E9A29049DB600666451 /* Sources */,
+				CBD77E9B29049DB600666451 /* Frameworks */,
+				CBD77E9C29049DB600666451 /* Resources */,
+				DA4CF3C480FDB48239FDF34C /* [CP] Embed Pods Frameworks */,
+				F17ED4483537466EAA043649 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eathub;
+			productName = Eathub;
+			productReference = CBD77E9E29049DB600666451 /* Eathub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBD77E9629049DB500666451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CBD77E9D29049DB600666451 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CBD77E9929049DB500666451 /* Build configuration list for PBXProject "Eathub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBD77E9529049DB500666451;
+			productRefGroup = CBD77E9F29049DB600666451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBD77E9D29049DB600666451 /* Eathub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBD77E9C29049DB600666451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD77EA929049DB800666451 /* Preview Assets.xcassets in Resources */,
+				CBD77EA629049DB800666451 /* Assets.xcassets in Resources */,
+				CBEB15682904A63A004115D0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA4CF3C480FDB48239FDF34C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eathub/Pods-Eathub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eathub/Pods-Eathub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eathub/Pods-Eathub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F17ED4483537466EAA043649 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eathub/Pods-Eathub-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eathub/Pods-Eathub-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eathub/Pods-Eathub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E77FF4EC101E7E2FA8A5D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eathub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD77E9A29049DB600666451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7FDD8B290770430060B94B /* mapView.swift in Sources */,
+				CBD77EA429049DB600666451 /* ContentView.swift in Sources */,
+				CB88D2FE290F3E2300194209 /* TrackfoodView.swift in Sources */,
+				CBEB15B02904ADBF004115D0 /* Item.swift in Sources */,
+				CBEB15A92904AD31004115D0 /* ItemView.swift in Sources */,
+				CBEB15AB2904AD51004115D0 /* Menu.swift in Sources */,
+				CBEB15A22904A98A004115D0 /* HomeViewModel.swift in Sources */,
+				CBEB15A72904AD09004115D0 /* Home.swift in Sources */,
+				CBEB15A52904ACE0004115D0 /* CartView.swift in Sources */,
+				CB87C28529084A4A0083BE1E /* foodDeliveryView.swift in Sources */,
+				CBD77EA229049DB600666451 /* EathubApp.swift in Sources */,
+				CBEB15AE2904AD9D004115D0 /* Cart.swift in Sources */,
+				CB88D300291213BE00194209 /* loginView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBD77EAA29049DB800666451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBD77EAB29049DB800666451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD77EAD29049DB800666451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FEDC564C1A72F4EE547F162 /* Pods-Eathub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eathub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eathub/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Request user's location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Request user's location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Request user's location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Request user's location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = wzhong.sfsu.edu.Eathub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBD77EAE29049DB800666451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A342C9D575CDD229BF0A0DC /* Pods-Eathub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eathub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eathub/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Request user's location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Request user's location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Request user's location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Request user's location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = wzhong.sfsu.edu.Eathub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBD77E9929049DB500666451 /* Build configuration list for PBXProject "Eathub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD77EAA29049DB800666451 /* Debug */,
+				CBD77EAB29049DB800666451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD77EAC29049DB800666451 /* Build configuration list for PBXNativeTarget "Eathub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD77EAD29049DB800666451 /* Debug */,
+				CBD77EAE29049DB800666451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBD77E9629049DB500666451 /* Project object */;
+}
