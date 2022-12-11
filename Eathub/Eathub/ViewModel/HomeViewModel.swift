@@ -107,34 +107,6 @@ class HomeViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
             self.fetchData()
         }
     }
-    
-    
-    // Fetching Items
-
-    func fetchData() {
-
-        let dataBase = Firestore.firestore()
-        
-        dataBase.collection("Items").getDocuments { snap, err in
-            guard let itemData = snap else {return}
-            
-            self.items = itemData.documents.compactMap({ doc -> Item? in
-                let id = doc.documentID
-                let name = doc.get("item_name") as! String
-                let cost = doc.get("item_cost") as! NSNumber
-                let image = doc.get("item_image") as! String
-                let details = doc.get("item_details") as! String
-                let ratings = doc.get("item_ratings") as! String
-                let lattitue = doc.get("item_lattitue") as! Double
-                let longtitue = doc.get("item_longtitue") as! Double
-                
-                return Item(id: id, item_name: name, item_cost: cost, item_details: details, item_image: image, item_ratings: ratings, item_lattitue: lattitue, item_longtitue: longtitue)
-            })
-            
-            self.filteredItems = self.items
-        }
-
-    }
 
     // Filter data
     func filterData() {
