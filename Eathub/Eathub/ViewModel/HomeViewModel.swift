@@ -104,7 +104,6 @@ class HomeViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
             }
             print("Success = \(res!.user.uid)")
             self.loggedIn.toggle()
-            self.fetchData()
         }
     }
 
