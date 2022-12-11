@@ -1,6 +1,7 @@
 	CSC 660 Final Project - Food order app Creator: William Zhong Student ID: 918136393
 	
 	My work based on https://iosexample.com - food order app with additional customized feature
+	Note: Please run the pod file before run the actual project
 	
 	Summary
 	This simple food order app is designed by swiftUI. Users will be able to explore varieties of food options from different partnered restaurants every day. They can simply checkout in the app and have them delivered to your location.
